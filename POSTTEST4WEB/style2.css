@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+	background-repeat: no-repeat;
+	background-size: cover;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Helvetica, sans-serif; 
+}
+
+
+h1 {text-decoration: bold;
+    color: #fd0808;  
+    font-size: 40px; 
+    }
+
+div {
+    position: absolute;
+    border-radius: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: rgb(255, 8, 8);
+    padding: 40px;
+    box-sizing: content-box;
+    border: 17px solid rgba(42, 136, 42, 0.1);
+    box-shadow: 20 20px 20px rgba(0, 0, 0, .2);
+    opacity: 0.6;
+}
+
+.otput {  
+	font-weight: bold; 
+	font-size: 15px; 
+	font-family: Tahoma, sans-serif;
+	text-indent: 10px;
+    }
